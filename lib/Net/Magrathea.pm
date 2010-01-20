@@ -7,7 +7,7 @@ use Net::Telnet;
 use namespace::autoclean;
 use Carp qw/carp croak/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 has 'username' => (
     isa      => 'Str',
@@ -249,7 +249,7 @@ Net::Magrathea - Perl interface to the Magrathea Telecom NTS API
 
 =head1 VERSION
 
-This document describes Net::Magrathea version 0.01
+This document describes Net::Magrathea version 0.02
 
 
 =head1 SYNOPSIS

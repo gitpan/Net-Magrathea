@@ -10,8 +10,7 @@ requires 'Moose'       => '0.93';
 requires 'Net::Telnet' => '3.03';
 requires 'namespace::autoclean' => '0.09';
 
-build_requires 'Test::More'         => '0.42';
-build_requires 'Test::Distribution' => '0';
+test_requires 'Test::More'         => '0.47';
 
 auto_install;
 

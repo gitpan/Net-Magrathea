@@ -2,7 +2,7 @@ NAME
     Net::Magrathea - Perl interface to the Magrathea Telecom NTS API
 
 VERSION
-    This document describes Net::Magrathea version 0.01
+    This document describes Net::Magrathea version 0.02
 
 SYNOPSIS
         use strict;
