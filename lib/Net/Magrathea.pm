@@ -7,7 +7,7 @@ use Net::Telnet;
 use namespace::autoclean;
 use Carp qw/carp croak/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 has 'username' => (
     isa      => 'Str',
@@ -172,7 +172,7 @@ sub status {
     my $number = shift;
 
     croak "No number supplied.\n" if !$number;
-    return $self->_send_command( 'REAC', $number );
+    return $self->_send_command( 'STAT', $number );
 }
 
 sub set {
@@ -249,7 +249,7 @@ Net::Magrathea - Perl interface to the Magrathea Telecom NTS API
 
 =head1 VERSION
 
-This document describes Net::Magrathea version 0.02
+This document describes Net::Magrathea version 0.03
 
 
 =head1 SYNOPSIS
